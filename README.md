@@ -6,4 +6,4 @@ Entrainement d'integration d'après la site [spotify](https://www.spotify.com/fr
 - html
 - css
 
-![template](spotify-template)
+![template](template-spotify.png)
