@@ -6,6 +6,7 @@
     --color--green:#1ed760;
     --color--menu-aside:#1B1B1B;
     --color--grey:#b3b3b3;
+    --color--darkgrey:#303030;
     --color--white:#ffffff;    
     font-size:16px;   
 }
@@ -83,6 +84,7 @@ body{
     color:var(--color--white);
     margin:0 auto;
 }
+/*----------------------------section offer ----------------*/
 .section-offer{
     display: flex;
     flex-direction: row;
@@ -138,16 +140,63 @@ body{
 .section-offer__image{
     width: 60%;    
 }
+/*-----------------------------section account ----------------------*/
 .section-account{
     display: flex;
     flex-direction: row;
 }
-.section-account__nav,.section-account__account{
-    width: 50%;
+.section-account__nav{
+    width: 35%;
 }
 .section-account__nav{
     background-color: var(--color--menu-aside);
+    height:100vh;
+}
+.section-account__nav-account{
+    border: 1px solid var(--color--menu-aside);
+}
+.section-account__link--large{
+    justify-content: center;
+    height: 6rem;
+}
+.section-account__link{
+    position: relative;
+    display:flex;
+    align-items: center;    
+    padding: 1rem 2rem;
+    color:var(--color--grey);
+    line-height: 1.5rem;
+    border-top: 1px solid var(--color--darkgrey);
+    box-shadow: var(--color--darkgrey) 1px 0.5px 1px;    
+}  
+.section-account__link:before{
+    content:"";
+    position: absolute;
+    left: 0;
+    height:100%;
+    width: 0.5rem;
+    background-color:transparent;
+}
+.section-account__link:hover:before{
+    background-color: var(--color--green);
+}
+.section-account__link--large:hover::before{
+    background-color: transparent;
+}
+.section-account__icone{
+    width:9%;
+    margin-right: 1.5rem;
+}
+.section-account__icone--large{
+    width: 40%;
 }
 .section-account__account{
+    width:100%;
     background-color: var(--color--white);
+    color:var(--color--black);
+    padding: 3rem;
+}
+.section-account__h1{
+    font-size: 2.5rem;
+    font-weight: 700;
 }
