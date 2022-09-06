@@ -123,7 +123,7 @@ body{
     font-size:0.9rem ;  
     transition: font-size 0.3s ease-in-out, 
 }
-.section-offer__button:hover{
+.section-offer__button:hover, .section-account__button:hover{
     font-size: 1rem;
     margin-bottom: 1.9rem;
 }
@@ -145,7 +145,7 @@ body{
 .section-offer__image{
     width: 60%;    
 }
-/*-----------------------------section account ----------------------*/
+/*-----------------------------section account nav ----------------------*/
 .section-account{
     display: flex;
     flex-direction: row;
@@ -155,7 +155,6 @@ body{
 }
 .section-account__nav{
     background-color: var(--color--menu-aside);
-    height:100vh;
 }
 .section-account__nav-account{
     border: 1px solid var(--color--menu-aside);
@@ -195,13 +194,74 @@ body{
 .section-account__icone--large{
     width: 40%;
 }
-.section-account__account{
+/*-----------------------------section account profil ----------------------*/
+
+.section-account__profil{
     width:100%;
     background-color: var(--color--white);
     color:var(--color--black);
     padding: 3rem;
 }
+.section-account__table{
+    margin-bottom: 4rem;
+}
 .section-account__h1{
     font-size: 2.5rem;
     font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+.section-account__sub-title{
+    font-size: 1.4rem;
+    font-weight: 700; 
+    margin-bottom: 2rem;
+}
+.table{
+    width:100%;
+    margin-bottom: 1.5rem;
+}
+.table__lign .table__column:first-of-type{
+    color:var(--color--grey);
+}
+.table__lign{
+    height:3rem;
+    border-bottom: 1px solid var(--color--grey);   
+}
+.table__column{
+    vertical-align: middle;
+}
+.section-account__button{
+    display: inline-block;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--color--black);
+    border-radius: 3rem;
+    text-decoration: none;
+    margin-bottom: 2rem; 
+    font-size:0.9rem ;  
+    transition: font-size 0.3s ease-in-out, 
+}
+.section-account__pub{
+    width: 100%;
+    border: 1px solid var(--color--grey);
+    border-radius: 0.5rem;
+    box-shadow: var(--color--grey) 1px 3px 10px;
+    margin-bottom: 1.5rem;
+}
+.section-account__strong{
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: var(--color--grey);
+    padding:5rem 2rem;
+    margin-bottom: 3rem ; 
+    border-radius: 0.5rem 0.5rem 0 0;   
+}
+.section-account__text{
+    margin:0 0 3rem 2rem;
+}
+.section-account__free{
+    display: block;
+    font-weight: 700;
+    margin-top: 4rem;
+    font-size: 1.5rem;
 }
