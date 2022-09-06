@@ -121,6 +121,11 @@ body{
     text-decoration: none;
     margin-bottom: 2rem; 
     font-size:0.9rem ;  
+    transition: font-size 0.3s ease-in-out, 
+}
+.section-offer__button:hover{
+    font-size: 1rem;
+    margin-bottom: 1.9rem;
 }
 .section-offer__text--small{
     font-size:0.6rem;
