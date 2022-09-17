@@ -121,11 +121,13 @@ body{
     text-decoration: none;
     margin-bottom: 2rem; 
     font-size:0.9rem ;  
-    transition: font-size 0.3s ease-in-out, 
+    transition-property: background-color, color;
+    transition-duration: 0.5s; 
 }
-.section-offer__button:hover, .section-account__button:hover{
-    font-size: 1rem;
-    margin-bottom: 1.9rem;
+.section-offer__button:hover{
+    background-color: white;
+    color:var(--color--menu-aside);
+   
 }
 .section-offer__text--small{
     font-size:0.6rem;
