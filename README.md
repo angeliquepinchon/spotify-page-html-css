@@ -1,10 +1,10 @@
 # spotify-page-html-css
 
-Entrainement d'intégration d'après le site [spotify](https://www.spotify.com/fr/).
+Entrainement d'intégration sur la page de connexion [spotify](https://www.spotify.com/fr/).
 
 **Langages utilisés**
 - html
-- css
+- css et media queries
 
 Intégration en suivant la **Convention BEM** et la technique du **RWD**
 
