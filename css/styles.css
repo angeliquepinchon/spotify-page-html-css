@@ -113,6 +113,7 @@ body{
 }
 .section-offer__button{
     display: inline-block;
+    max-width: 50%;
     background-color: var(--color--black);
     color:var(--color--white);
     text-transform: uppercase;
@@ -266,4 +267,32 @@ body{
     font-weight: 700;
     margin-top: 4rem;
     font-size: 1.5rem;
+}
+/*--------------------------------- media queries ------------------------------*/
+
+@media screen and (max-width: 950px){
+    .section-offer__image {
+        display: none;
+    }
+    .section-offer__image-contain{
+        width:0;        
+    }
+    .section-offer__offer{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        padding:0 5rem;
+    }
+}
+@media screen and (max-width: 770px){
+    .section-offer__button{
+        max-width:100%;
+    }
+    .section-offer__offer{
+        padding:0
+    }
+    .section-account__nav, .header-container__nav-link{
+        display:none;
+    }
+  
 }
