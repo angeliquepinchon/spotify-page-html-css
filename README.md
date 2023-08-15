@@ -11,4 +11,4 @@ Intégration en suivant la **Convention BEM** et la technique du **RWD**
 
 **Visuel attendu** :
 
-![template](screenshot.png)
+
